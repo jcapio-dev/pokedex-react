@@ -1,0 +1,72 @@
+.pokemonCard {
+    @apply bg-white rounded-lg border-2 border-gray-300 overflow-hidden p-5 flex flex-col gap-3 justify-start;
+
+    .pokemonImage {
+        @apply w-full;
+    }
+
+    .pokemonTitle {
+        @apply text-sm font-bold text-blue-900;
+    }
+
+    .grass {
+        @apply text-green-500;
+    }
+
+    .poison {
+        @apply text-purple-500;
+    }
+
+    .fire {
+        @apply text-red-500;
+    }
+
+    .flying {
+        @apply text-blue-300;
+    }
+
+    .water {
+        @apply text-blue-500;
+    }
+
+    .bug {
+        @apply text-green-300;
+    }
+
+    .ground {
+        @apply text-yellow-500;
+    }
+
+    .electric {
+        @apply text-yellow-300;
+    }
+
+    .fighting {
+        @apply text-red-300;
+    }
+
+    .psychic {
+        @apply text-purple-300;
+    }
+    .rock {
+        @apply text-yellow-700;
+    }
+    .ice {
+        @apply text-blue-100;
+    }
+    .dragon {
+        @apply text-purple-700;
+    }
+    .dark {
+        @apply text-gray-700;
+    }
+    .fairy {
+        @apply text-pink-300;
+    }
+    .steel {
+        @apply text-gray-300;
+    }
+    .ghost {
+        @apply text-purple-500;
+    }
+}
